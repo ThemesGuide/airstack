@@ -1,0 +1,12 @@
+@import "./node_modules/bootstrap/scss/_mixins";
+@import "./node_modules/bootstrap/scss/_functions";
+@import "./node_modules/bootstrap/scss/_variables";
+
+$bg: red;
+$primary-color: red;
+
+body {
+    background: $primary-color;
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap";
